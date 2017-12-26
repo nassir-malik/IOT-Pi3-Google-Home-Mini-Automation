@@ -1,3 +1,6 @@
 # IOT-Pi3-GoogleHome-Automation
 IOT-Pi3-Alexa-Automation
-Coming soon...
+
+Downlod RASPBIAN STRETCH WITH DESKTOP
+
+https://www.raspberrypi.org/downloads/raspbian/
