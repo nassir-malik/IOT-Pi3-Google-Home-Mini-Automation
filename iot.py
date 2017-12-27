@@ -14,10 +14,6 @@ GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
 GPIO.setup(16, GPIO.OUT)   ## Setup GPIO Pin to OUTPUT
 GPIO.setup(18, GPIO.OUT)   ## Setup GPIO Pin to OUTPUT
 
-#@app.route('/')
-#def index():
-#    return 'Hello world'
-
 @app.route('/',methods=['POST'])
 def index():
     req = request.get_json(silent=True, force=True)
